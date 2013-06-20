@@ -196,6 +196,7 @@ function buildCommentBox(div, model) {
 
   input = document.createElement("textarea");
   input.setAttribute('rows', 7);
+  input.setAttribute('maxlength', 10000);
   input.contentEditable = true;
   input.id = "new-comment-body";
 
